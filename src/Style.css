@@ -1,0 +1,154 @@
+.bubblegum {
+  font-family: "Bubblegum Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Jost;
+}
+
+.cusrsor-pointer {
+  cursor: pointer;
+}
+
+.bg-warm {
+  background-color: #fff0e5;
+}
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.5s ease-in-out;
+  padding: 20px 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  max-height: 60px;
+  color: #fff;
+}
+.btn-rounded-full {
+  max-height: 60px;
+  z-index: 10;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.5s ease-in-out;
+  padding: 20px 30px;
+  border-radius: 45px;
+  background-color: var(--primary);
+  color: #fff;
+  line-height: normal;
+  border: 2px solid transparent;
+}
+
+.bg-destructive {
+  background-color: #ed145b;
+}
+
+.hover\:bg-destructive:hover {
+  background-color: #ed145b;
+}
+
+.hover\:text-destructive:hover {
+  color: #ed145b;
+}
+
+.hover\:border-destructive:hover {
+  border-color: #ed145b;
+}
+
+.bg-org {
+  background-color: #f7941e;
+}
+
+.hover\:text-orange:hover {
+  color: #f7941e;
+}
+
+.hover\:bg-green:hover {
+  background-color: green;
+}
+
+.btn-rounded-full:hover {
+  background-color: transparent;
+}
+
+p {
+  color: #686868;
+}
+
+.bg-aaa {
+  background-color: #1cbbb4;
+}
+
+.text-color-1 {
+  color: #1cbbb4;
+}
+
+.hover\:text-color-1:hover {
+  color: #1cbbb4;
+}
+
+.hover\:bg-color-1:hover {
+  background: linear-gradient(to right, #1cbbb4 0%, #1cbbb4 100%);
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.nunito {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.group:hover .child {
+  color: #1cbbb4;
+}
+
+.bg-banner {
+  background-image: url(../img/bg-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.boder_gray {
+  border-color: gray;
+}
+
+.bg_ft {
+  background-image: url("../img/egg-shap.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.bg-green-1 {
+  background-image: linear-gradient(
+    rgba(238, 255, 200, 0) 0%,
+    rgb(233, 255, 182) 100%
+  );
+}
+
+.bg_ras {
+  background-image: url(../img/bg-imgabc.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  background-color: linear-gradient(
+    rgba(238, 255, 200, 0) 0%,
+    rgb(233, 255, 182) 100%
+  );
+}
