@@ -119,7 +119,7 @@ p {
 }
 
 .bg-banner {
-  background-image: url(../img/bg-img.png);
+  background-image: url(/public/img/bg-img.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -129,7 +129,7 @@ p {
 }
 
 .bg_ft {
-  background-image: url("../img/egg-shap.png");
+  background-image: url("/public/img/egg-shap.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -143,7 +143,7 @@ p {
 }
 
 .bg_ras {
-  background-image: url(../img/bg-imgabc.png);
+  background-image: url("/public/img/bg-imgabc.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
